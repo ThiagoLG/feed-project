@@ -13,11 +13,14 @@ export function Sidebar() {
 
       <div className={styles.profile}>
 
-        <img
-          className={styles.avatar}
-          src="https://github.com/thiagolg.png"
-          alt="user profile photo"
-        />
+
+        <a href="https://github.com/ThiagoLG">
+          <img
+            className={styles.avatar}
+            src="https://github.com/thiagolg.png"
+            alt="user profile photo"
+          />
+        </a>
 
         <strong>Thiago Lourençon Ghebra</strong>
         <span>Software Developer</span>
