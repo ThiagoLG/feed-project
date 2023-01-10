@@ -3,6 +3,7 @@ export function Post() {
 
   return (
     <article className={styles.post}>
+      {/* Post Header */}
       <header>
 
         <div className={styles.author}>
@@ -19,6 +20,7 @@ export function Post() {
 
       </header>
 
+      {/* Post Content */}
       <div className={styles.content}>
         <p>Fala galeraa 👋</p>
         <p>Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀</p>
@@ -29,6 +31,18 @@ export function Post() {
           <a href="#">#rocketseat</a>
         </p>
       </div>
+
+      {/* Post Comments */}
+      <form className={styles.commentForm}>
+
+        <strong>Deixe seu feedback</strong>
+        <textarea placeholder='Deixe um comentário' />
+        <footer>
+          <button type='submit'>Publish</button>
+        </footer>
+
+      </form>
+
 
     </article>
   )
