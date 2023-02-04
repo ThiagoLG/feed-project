@@ -5,7 +5,7 @@ export function Comment() {
   return (
     <div className={styles.comment}>
       {/* Avatar Region */}
-      <img className={styles.avatar} src="https://github.com.br/thiagolg.png" />
+      <img className={styles.avatar} src="https://github.com/thiagolg.png" />
 
       {/* Comment region */}
       <div className={styles.commentBox}>
@@ -17,7 +17,7 @@ export function Comment() {
             </div>
 
             <button title='Deletar Comentário'>
-              <Trash size={20} />
+              <Trash size={24} />
             </button>
 
 
