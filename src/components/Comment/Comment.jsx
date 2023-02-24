@@ -16,7 +16,7 @@ export function Comment({ content, onDeleteComment }) {
 
   /*- Controls like click event and increment the counter -*/
   function handleLikeComment() {
-    setLikeCount(likeCount + 1);
+    setLikeCount((count) => count + 1);
   }
 
   return (
